@@ -1,0 +1,342 @@
+/*Générale*/
+
+*, h1 {
+    padding: 0;
+    margin: 0;
+}
+
+html { 
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: DotGothic;
+    src: url(../fonts/DotGothic16-Regular.ttf);
+}
+
+@font-face {
+    font-family: JostVariable;
+    src: url(../fonts/Jost-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: JostItalic;
+    src: url(../fonts/Jost-Italic-VariableFont_wght.ttf);
+}
+
+/*Principale*/
+
+.menu {
+    width: 100vw;
+    height: 60px;
+    margin: 0 auto;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(87, 22, 148, 0.352);
+}
+
+.accueil, .piedDePage {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.349);
+}
+
+.accueil2, .piedDePage2 {
+    width: 80vw;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.article {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(34, 33, 40);
+}
+
+.article2 {
+    width: 90vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(71, 55, 92, 0.477);
+    border: 15px;
+    border-style: ridge;
+    border-color: antiquewhite;
+}
+
+.galerie {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color:rgba(25, 25, 185, 0.345)
+}
+
+.galerie2 {
+    width: 90vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 55, 92, 0.477);
+    border: 15px;
+    border-style: ridge;
+    border-color: antiquewhite;
+}
+
+.vidéo {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgba(35, 30, 66, 0.832)
+}
+
+.vidéo2 {
+    width: 90vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(215, 203, 231, 0.705);
+    border: 15px;
+    border-style: ridge;
+    border-color: antiquewhite;
+}
+
+.tableau {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(211, 182, 224);
+}
+
+.tableau2 {
+    width: 90vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(45, 12, 59, 0.412);
+    border: 15px;
+    border-style: ridge;
+    border-color: rgb(246, 215, 250);
+}
+
+.inscription {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(34, 33, 40);
+}
+
+.inscription2 {
+    width: 40vw;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piedDePage {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color:rgba(148, 0, 211, 0.318)
+}
+
+/*Secondaire*/
+
+.contenu {
+    width: 83vw;
+    height: 68vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: antiquewhite
+}
+
+.contenu3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.années {
+    padding: 10px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure {
+    padding: 3px;
+}
+
+form {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    background-color: rgb(149, 152, 201);
+    border: 15px;
+    border-style: ridge;
+    border-color: antiquewhite;
+    border-radius: 2%;
+    box-shadow: 10px 10px 10px rgba(171, 154, 187, 0.515);
+    box-shadow: blur;
+ }
+
+fieldset { /*Pour doubler la bordure*/
+    width: 100%;
+    height: 86.9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 15px;
+    border-style: ridge;
+    border-color: antiquewhite;
+ }
+
+ /*Supplémentaire*/
+
+ .accueil2>span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+fieldset>div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+fieldset>div:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Élément*/
+
+hr {
+    width: 100%;
+}
+
+p>img {
+    float: right;
+    padding: 2px;
+    border: 2px solid rgb(78, 38, 120);
+}
+
+figure>img {
+    width: 150px;
+    height: 150px;
+    padding: 2px;
+    border: 2px solid rgb(78, 38, 120)
+}
+
+iframe {
+    padding: 10px;
+}
+
+table {
+    border: 15px;
+    border-style: ridge;
+    border-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+    box-shadow: 10px 10px 10px rgba(171, 154, 187, 0.515);
+    box-shadow: blur;
+}
+
+
+/*Texte*/
+
+h1, h2 {
+    font-family: DotGothic;
+}
+
+h3, h4, p, tr, th {
+    font-family: JostVariable;
+}
+
+p {
+    font-size: 80%
+}
+
+a {
+    font-family: DotGothic;
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+}
+
+th, td {
+    border: 5px;
+    border-style: ridge;
+    border-color: antiquewhite;
+    border-radius: 2%;
+}
+
+a:active {
+    color: rgb(112, 26, 155);
+}
+
+a:hover {
+    font-size: 120%;
+}
+
+.article2>h3, .galerie2>h3, .vidéo2>h3, .tableau2>h3 {
+    width: 230px;
+    height: 25px;
+    font-size: medium;
+    font-family: DotGothic;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    border: 5px;
+    border-style: ridge;
+    border-color: antiquewhite;
+    background-color: rgb(151, 113, 186);
+}
+
+.années>h3 {
+    font-size: x-large;
+}
+
+.années>h4, figcaption {
+    font-family: JostItalic;
+    margin-bottom: 10px;
+}
